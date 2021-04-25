@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kiteext"
+version = "0.1.0"
+description = "Extension for python kiteconnect from Zerodha"
+authors = ["Algo 2 Trade <help@algo2.trade>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+kiteconnect = "^3.9.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+python-dotenv = "^0.17.0"
+autopep8 = "^1.5.6"
+rope = "^0.19.0"
+flake8 = "^3.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
